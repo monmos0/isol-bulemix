@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+
+</head>
+<body>
+
+	<div id="login_div">
+		<h1>この認証機能は笊です</h1>
+
+		<form id="login_form">
+			<fieldset>
+				<h2>おもちゃの認証アプリケーション</h2>
+				<table>
+					<tr>
+						<td><label for="user_id">ログインID:*</label></td>
+						<td><input type="text" name="user_id" id="user_id"
+							tabindex="1" /></td>
+					</tr>
+					<tr>
+						<td><label for="user_pwd">パスワード:*</label></td>
+						<td><input type="text" name="user_pwd" id="user_pwd" value=""
+							tabindex="2" autocomplete="off" /></td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><input type="button" id="login" value="ログイン" /></td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><input type="button" id="cancel" value="キャンセル" /></td>
+					</tr>
+
+				</table>
+			</fieldset>
+		</form>
+
+	</div>
+
+</body>
+</html>
