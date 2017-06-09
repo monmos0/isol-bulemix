@@ -4,7 +4,7 @@
 package com.ibm.jp.toy.dto;
 
 /**
- * @author AB670075
+ * @author onuma
  *
  */
 public class UserAuthDTO {
