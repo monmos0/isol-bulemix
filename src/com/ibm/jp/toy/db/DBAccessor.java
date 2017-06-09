@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 
 
 /**
- * @author AB670075
+ * @author onuma
  *
  */
 public class DBAccessor {
